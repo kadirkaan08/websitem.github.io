@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("/resim/atom2.jpg");
+    background-image: url("resim/atom2.jpg");
 }
 
 #banner
@@ -106,4 +106,5 @@ body
 #red
 {
     padding-left: 10px;
+
 }
