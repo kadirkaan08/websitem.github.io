@@ -2,29 +2,27 @@ body
 {
     background-image: url("resim/atom2.jpg");
 }
-
 #banner
 {
     color: darkblue;
 }
-
 #menu
 {
-    width: 880;
-    height: 50;
+    width: 880px;
+    height: 50px;
     background-color: blue;
     margin: auto;
 }
 #menu ul
 {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     position: absolute;
 }
 #menu ul li
 {
-    width: 120;
+    width: 120px;
     float: left;
 }
 #menu ul li a
@@ -32,18 +30,18 @@ body
     text-decoration: none;
     text-align: center;
     display: block;
-    font-size: 20;
-    line-height: 30;
+    font-size: 20px;
+    line-height: 30px;
     color: yellow;
-    background-color:  (0, 38, 255, 0.636);
+    background-color: rgba(0, 38, 255, 0.636);
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #menu ul li a:hover
 {
     text-decoration: none;
-    background-color:  (0, 38, 255, 0.636);
-    border-radius: 10;
+    background-color: rgba(0, 38, 255, 0.636);
+    border-radius: 10px;
 }
 #menu ul li ul
 {
@@ -54,69 +52,66 @@ body
     text-decoration: none;
     text-align: center;
     display: block;
-    line-height: 30;
-    background-color: (0, 38, 255, 0.636);
-    color: (172, 88, 88);
+    line-height: 30px;
+    background-color: rgba(0, 38, 255, 0.636);
+    color: rgb(172, 88, 88);
     font-weight: bold;
-    border-bottom: 5 solid (86, 7, 151);
-    transition: all 0.7 ease-in-out;
+    border-bottom: 5px solid rgb(86, 7, 151);
+    transition: all 0.7s ease-in-out;
 }
-#menu ul li a:hover 
+#menu ul li a:hover
 {
     text-decoration: none;
     text-align: center;
     display: block;
-    line-height: 30;
-    background-color: (82, 7, 34);
-    color: (52, 57, 32);
+    line-height: 30px;
+    background-color: rgb(82, 7, 34);
+    color: rgb(52, 57, 32);
     font-weight: bold;
-    border-bottom: 5 solid (3, 66, 121);
-    transition: all 0.7 ease-in-out;
+    border-bottom: 5px solid rgb(3, 66, 121);
+    transition: all 0.7s ease-in-out;
 }
-
 #content
 {
-    background-color: (56, 18, 122);
-    width: 900;
-    height: 1500;
-    margin-top: 30;
+    background-color: rgb(56, 18, 122);
+    width: 900px;
+    height: 1500px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10;
+    border-radius: 10px;
     overflow: scroll;
 }
 #bezelye
 {
-    width: 200;
-    height: 200;
+    width: 200px;
+    height: 200px;
     float: right;
-    padding: 20;
+    padding: 20px;
 }
 #altı
 {
-    width: 200;
-    height: 200;
+    width: 200px;
+    height: 200px;
     float: right;
-    padding: 20;
+    padding: 20px;
 }
 p
 {
     font-weight: bold;
-    font-size: 20;
+    font-size: 20px;
 }
 #david
 {
-    width: 200;
-    height: 200;
+    width: 200px;
+    height: 200px;
     float: right;
-    padding: 20;
+    padding: 20px;
 }
 #rontgen
 {
-    width: 200;
-    height: 200;
+    width: 200px;
+    height: 200px;
     float: right;
-    padding: 20;
-
+    padding: 20px;
 }
-
