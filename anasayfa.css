@@ -1,0 +1,96 @@
+body
+{
+    background-image: url("/resim/atom2.jpg");
+}
+
+#banner
+{
+    color: darkblue;
+}
+
+#menu
+{
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(5, 43, 82);
+    margin-top: 10px;
+    margin-left: 10px;  
+    margin: auto;
+}
+
+#menu ul
+{ 
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+#menu ul li
+{
+    width: 120px;
+    float: left;
+}
+
+#menu ul li a
+{
+       text-decoration: none;
+       text-align: center;
+       display: block;
+       font-size: 20px;
+       line-height: 30px;
+       color: rgb(255, 255, 255);
+       background-color: rgb(5, 43, 82);
+       font-weight: bold;
+       font: size 50px;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu ul li a:hover
+{
+       text-decoration: none;
+       text-align: center;
+       display: block;
+       font-size: 20px;
+       line-height: 30px;
+       background-color: rgba(53, 12, 111, 0.636);
+       color: rgb(180, 144, 12);
+       font-size:small;
+       font-weight: bold;
+       transition: all.5s ease-in-out;
+}
+
+#content
+{
+    background-color: chocolate;
+    width: 900px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+p
+{
+    color: rgb(158, 187, 10);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#footer
+{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(26, 67, 49);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 450px;
+}
+
+#orta
+{
+    width: 900px;
+    height: 300px;
+    background-color: turquoise;
+    margin-top: 30px;
+}

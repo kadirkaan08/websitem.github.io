@@ -1,0 +1,91 @@
+body
+{
+    background-image: url("/resim/atom2.jpg");
+}
+
+#banner
+{
+    color: darkblue;
+}
+
+#menu
+{
+    width: 880px;
+    height: 50px;
+    background-color: blue;
+    margin: auto;
+}
+#menu ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+#menu ul li
+{
+    width: 120px;
+    float: left;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    color: yellow;
+    background-color:  rgba(0, 38, 255, 0.636);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menu ul li a:hover
+{
+    text-decoration: none;
+    background-color:  rgba(0, 38, 255, 0.636);
+    border-radius: 10px;
+}
+#menu ul li ul
+{
+    display: none;
+}
+#menu ul li:hover ul
+{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    background-color: rgba(0, 38, 255, 0.636);
+    color: rgb(172, 88, 88);
+    font-weight: bold;
+    border-bottom: 5px solid rgb(86, 7, 151);
+    transition: all 0.7s ease-in-out;
+}
+#menu ul li a:hover 
+{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    background-color: rgb(82, 7, 34);
+    color: rgb(52, 57, 32);
+    font-weight: bold;
+    border-bottom: 5px solid rgb(3, 66, 121);
+    transition: all 0.7s ease-in-out;
+}
+
+#content
+{
+    background-color: rgb(61, 137, 31);
+    width: 900px;
+    height: 2200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+li
+{
+    font-size: 20px;
+    font-weight: bold;
+}

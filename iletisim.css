@@ -1,0 +1,112 @@
+body
+{
+    background-image: url(/resim/atom2.jpg);
+}
+
+#banner
+{
+    color: darkblue;
+    font-size: 20px;
+}
+
+#menu
+{
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(5, 43, 82);
+    margin-top: 10px;
+    margin-left: 10px;  
+    margin: auto;
+}
+
+#menu ul
+{ 
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+#menu ul li
+{
+    width: 120px;
+    float: left;
+}
+
+#menu ul li a
+{
+       text-decoration: none;
+       text-align: center;
+       display: block;
+       font-size: 20px;
+       line-height: 30px;
+       color: rgb(255, 255, 255);
+       background-color: rgb(5, 43, 82);
+       font-weight: bold;
+       font: size 50px;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu ul li a:hover
+{
+       text-decoration: none;
+       text-align: center;
+       display: block;
+       font-size: 20px;
+       line-height: 30px;
+       background-color: rgba(53, 12, 111, 0.636);
+       color: rgb(180, 144, 12);
+       font-size:small;
+       font-weight: bold;
+       transition: all.5s ease-in-out;
+}
+
+#content
+{
+    background-color: rgb(144, 30, 210);
+    width: 900px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#ad
+{
+    width: 300px;
+}
+
+#soyad
+{
+    width: 300px;
+}
+#tc
+{
+    width: 300px;
+}
+#cin
+{
+    margin-left: 60px;
+}
+#sehir
+{
+    margin-left: 100px;
+}
+
+#giris:focus
+{
+    background-color: brown;
+}
+#giris
+{
+    width: 300px;
+}
+#res
+{
+   float: right;
+   margin-right: 50px;
+}
+#kay
+{
+    float: left;
+    margin-left: 50px;
+}
