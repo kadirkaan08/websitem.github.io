@@ -14,7 +14,15 @@ body
     color: darkblue;
     font-size: 20px;
 }
-
+#footer
+{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(26, 67, 49);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 450px;
+}
 #menu
 {
     width: 1000px;
@@ -105,5 +113,6 @@ h1
     border-radius: 10px;
 
 }
+
 
 
