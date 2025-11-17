@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("/resim/atom2.jpg");
+    background-image: url("resim/atom2.jpg");
 }
 
 #banner
@@ -123,3 +123,4 @@ h1
     float: left;
     padding: 20px;
 }
+
