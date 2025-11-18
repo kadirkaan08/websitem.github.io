@@ -64,7 +64,7 @@ body
 {
     background-color: rgb(144, 30, 210);
     width: 900px;
-    height: 450px;
+    height: 500px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -120,4 +120,5 @@ body
     margin-left: auto;
     margin-top: 100px;
 }
+
 
