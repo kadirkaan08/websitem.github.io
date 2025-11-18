@@ -111,3 +111,12 @@ body
     margin-left: 50px;
 
 }
+#footer
+{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(26, 67, 49);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 450px;
+}
